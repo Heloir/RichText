@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/icons/textconvertor-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>RichText</title>
+</head>
+<body class="bg-primary">
+    <div class="position-absolute top-50 start-50 translate-middle">
+        <div class="container"> 
+             <div class="d-flex flex-column">
+                 <div class="options mb-5">
+                   <nav class="d-flex justify-content-center bg-white shadow-lg rounded p-3">
+                      <i><img src="assets/icons/bold-icon.png" alt="" class="boldbutton"></i>
+                      <i><img src="assets/icons/underline-icon.png" alt="" class="underlinebutton"></i>
+                      <i><img src="assets/icons/italic-icon.png" alt="" class="italicbutton"></i>
+                      <i><img src="assets/icons/uppercase-icon.png" alt="" class="uppercasebutton"></i>
+                      <span></span>
+                      <i><img src="assets/icons/align-left-icon.png" alt="" class="alignleftbutton"></i>
+                      <i><img src="assets/icons/align-center-icon.png" alt="" class="aligncenterbutton"></i>
+                      <i><img src="assets/icons/align-right-icon.png" alt="" class="alignrightbutton"></i>
+                      <span></span>
+                      <i><img src="assets/icons/reset-icon.png" alt="" onclick="resetbutton()"></i>
+                   </nav>
+                 </div>
+                 
+                <div class="form-floating">
+                    <textarea class="textarea form-control shadow-lg" placeholder="Leave a comment here" id="floatingTextarea2" cols="50" style="height: 400px"></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                  </div>
+             </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

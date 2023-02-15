@@ -1,0 +1,15 @@
+nav i img{
+    margin-left: 0.3rem;
+    width: 1.5625rem;
+    height: 1.5625rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+span{
+    background-color: rgba(83, 83, 83, 0.301);
+    padding: 1px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
